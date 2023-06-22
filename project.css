@@ -21,7 +21,7 @@ header{
     background-color: rgb(51, 54, 57);
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 header > a{
@@ -36,15 +36,7 @@ header > a{
     margin-right: 10px;
 }
 
-header > a:active{
-    color: aqua;
-}
-
-header > a:hover{
-    background-color: rgb(59, 61, 65);
-}
-
-.active{
+.abc{
     background-color: rgb(255, 255, 255);
     color: black;
 }
@@ -54,42 +46,6 @@ main{
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-}
-
-.h-image{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.h-image > img{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 30px;
-}
-
-.h-desc{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-form{
-    width: 70%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 input{
@@ -105,7 +61,7 @@ input[type="submit"]{
     border-radius: 10px;
 }
 
-.portfolio-cont{
+.myallmovies{
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -113,9 +69,9 @@ input[type="submit"]{
     flex-direction: row;
 }
 
-.portfolio{
+.moviename{
     padding: 10px;
-    display: flex;
+    display: ;
     flex-direction: column;
     margin: 10px;
     border: 2px solid black;
@@ -123,11 +79,11 @@ input[type="submit"]{
     height: max-content;
 }
 
-.p-image > img{
+.movieimage > img{
     border-radius: 10px;
 }
 
-.p-name{
+.aboutmovie{
     font-size: 30px;
     font-weight: 600;
     margin-top: 10px;
